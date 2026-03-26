@@ -101,7 +101,7 @@ export const useMatchData = (): UseMatchData => {
       const data = await fetchMatches(100);
       const nextMatches = data.data || [];
       const nextMatchIds = new Set(nextMatches.map((match) => String(match.id)));
-      setMatches((prevMatches) => {
+      setMatches((prevMatches: Match[]) => {
         const prevById = new Map(
           prevMatches.map((match) => [String(match.id), match])
         );
