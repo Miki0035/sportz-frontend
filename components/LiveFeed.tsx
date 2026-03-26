@@ -137,7 +137,7 @@ export const LiveFeed: React.FC<LiveFeedProps> = ({
                         {metadataLabel}
                       </div>
                     )}
-                    {msg.tags && msg.tags.length > 0 && (
+                    {Array.isArray(msg.tags) && msg.tags.length > 0 && (
                       <div className="flex flex-wrap gap-2 mt-2">
                         {msg.tags.map((tag) => (
                           <span

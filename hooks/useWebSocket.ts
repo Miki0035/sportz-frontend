@@ -32,9 +32,15 @@ export const useWebSocket = (
   // Core connect function
   const initConnection = useCallback(() => {
     // Cleanup previous connection
-    if (ws.current) {
-      isIntentionalClose.current = true;
-      ws.current.close();
+    // if (ws.current) {
+    //   isIntentionalClose.current = true;
+    //   ws.current.close();
+    // }
+    if (ws.current && (
+      ws.current.readyState === WebSocket.OPEN ||
+      ws.current.readyState === WebSocket.CONNECTING
+    )) {
+      return;
     }
 
     setStatus(reconnectAttempts.current > 0 ? 'reconnecting' : 'connecting');
@@ -43,6 +49,12 @@ export const useWebSocket = (
     // If a socket is already open or connecting, do nothing.
     if (ws.current && (ws.current.readyState === WebSocket.OPEN || ws.current.readyState === WebSocket.CONNECTING)) {
       return;
+    }
+
+    // Clear any pending reconnect timer to avoid overlaps
+    if (reconnectTimeout.current) {
+      clearTimeout(reconnectTimeout.current);
+      reconnectTimeout.current = null;
     }
 
     setStatus(reconnectAttempts.current > 0 ? 'reconnecting' : 'connecting');
