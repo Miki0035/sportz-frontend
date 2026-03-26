@@ -2,7 +2,7 @@
 
 <div align="center>
 
-![sportz](assets/sportz.png)
+![sportz](./public/sportz.png)
 
 </div>
 
@@ -92,6 +92,6 @@ In your browser go to 'localhost:3000' 👍
 This frontend depends on a backend service for full functionality (e.g., API WebSocket connections).  
  Please clone and run the backend from:
 
-👉 [sportz-websocketes](https://github.com/Miki0035/sportz-websocket)
+👉 [Sportz Backend](https://github.com/Miki0035/sportz-websocket)
 
 Without the backend, some features may not work as expected.
