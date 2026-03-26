@@ -1,8 +1,8 @@
 # Sportz
 
-<div align="center>
+<div align="center">
 
-![sportz](./public/sportz.png)
+![sportz](/public/sportz.png)
 
 </div>
 
