@@ -31,7 +31,7 @@ Adrian and JSMastery team😃 ) highly recommend if you want to upgrade your ski
 
 ## <a name="tech-stack">⚙️ Tech Stack </a>
 
-- [React](https://nextjs.org/)
+- [React](https://react.dev/)
 - [TailwindCSS](https://tailwindcss.com/docs/installation/using-vite)
 - [Vite](https://vite.dev)
 
