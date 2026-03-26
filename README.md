@@ -10,7 +10,7 @@
 <img src="https://img.shields.io/badge/react-20232A?style=for-the-badge&logo=react&logoColor=61DAFB" alt="React"/>
 <img src="https://img.shields.io/badge/typescript-007ACC?style=for-the-badge&logo=typescript&logoColor=white" alt="TypeScript"/>
 <img src="https://img.shields.io/badge/vite-646CFF?style=for-the-badge&logo=vite&logoColor=white" alt="Vite"/>
-<img src="https://img.shields.io/badge/websocket-010101?style=for-the-badge&logo=websocket&logoColor=white" alt="WebSocket"/>
+<img src="https://img.shields.io/badge/-WebSockets-010101?style=for-the-badge&logo=Socket.io&logoColor=white" alt="WebSocket"/>
   <img src="https://img.shields.io/badge/Tailwind_CSS-grey?style=for-the-badge&logo=tailwind-css&logoColor=38B2AC" alt="TailwindCSS"/>
 </p>
 
@@ -41,7 +41,7 @@ Adrian and JSMastery team😃 ) highly recommend if you want to upgrade your ski
 
 ## <a name="web">🌐 Website URL </a>
 
-- 🔗 [Sportz](https://stock-price-app-tdd4.vercel.app)
+- 🔗 [Sportz](https://sportz-miki0035.netlify.app/)
 
 ## <a name="quick-start"> 🤸 Quick Start </a>
 
