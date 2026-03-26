@@ -37,7 +37,7 @@ Adrian and JSMastery team😃 ) highly recommend if you want to upgrade your ski
 
 ## <a name="features">🔋 Features</a>
 
-👉 **Live Sport Updates** : displaying real-time stock data as graphs for easy trend analysis.
+👉 **Live Sport Updates** : displaying real-time sport events.
 
 ## <a name="web">🌐 Website URL </a>
 
